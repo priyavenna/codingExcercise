@@ -1,3 +1,9 @@
+153 ======> docker ps (for listing running docker containers)
+            docker rm -f 1234(docker contaier number)(terminate one docker container)
+            docker rm -f $(docker ps -aq)(terminates all docker containers)
+
+154 =======> docker exec -it <container name> /bin/bash 
+
 161 =====> git diff-tree --no-commit-id --name-only -r 717e57514be74cd6643392c49e3d668c9a62a605 (commit number)
 
 162======> git show 717e57514be74cd6643392c49e3d668c9a62a605 (commit number)
